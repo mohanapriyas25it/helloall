@@ -1,0 +1,8 @@
+name: mohana
+on: workflow_dispatch
+jobs:  
+  charles:
+    runs-on: ubuntu-latest
+    steps:
+      - name: printing hello
+        runs: echo "Hello"
