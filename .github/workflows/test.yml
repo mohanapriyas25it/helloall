@@ -8,13 +8,13 @@ jobs:
       - name: printing hello
         run: echo "Hello"
 
-        build:
+  build:
           runs-on: ubuntu-latest
           needs: test
           steps:
             - run: echo "Building project"
 
-        deploy:
+  deploy:
           runs-on: ubuntu-latest
           needs: build
           steps: 
