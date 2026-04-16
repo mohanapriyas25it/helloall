@@ -1,0 +1,11 @@
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+map<String,Integer>  he =new HashMap<>();
+he.put(key:"mohana",value:99);
+he.put(key:"shina",value:56);
+he.put(key:"kani",value:87);
+System.out.print(he);
+
+    }
+}
